@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="./css_cards/style.css">
+    <link rel="shortcut icon" href="/imagens/Pokeball_icon-icons.com_67533.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="/imagens/logo pokemon.png" alt="">
+        </div>
+        <div class="navbar">
+           <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="cards.html">CARDS</a></li>
+           </ul>
+    
+        </div>
+        <div class="image-logo-canto">
+            <img src="/imagens/123.png" alt="">
+        </div>
+    </header>
+    <main class="principal">
+       <div class="conteudo">
+        <div class="pesquisa">
+            <input type="text" id="inputPesquisa" placeholder="Pesquisar por nome">
+            <button id="btnPesquisar"><img src="/imagens/Search.svg" alt=""></button>
+        </div>
+        <div id="resultado"></div>
+       
+       </div>
+       <div class="carregar-mais">
+        <button id="btnCarregarMais" style="display: none;">Carregar Mais</button>
+       </div>
+    </main>
+    <footer class="rodape">
+        <p>&copy;API-Pokemon</p>
+    </footer>
+
+    <script src="/javascript/cartas.js"></script>
+
+    
+</body>
+
+</html>
